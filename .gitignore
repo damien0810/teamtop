@@ -1,0 +1,7 @@
+*.DS_Store
+*.log
+.bin/.last-failed.json
+.bin/.last-reversed-failed.json
+/camp2/**/yarn.lock
+camp2-exercises
+node_modules
