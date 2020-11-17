@@ -1,0 +1,70 @@
+{
+  "name": "03_fizz_buzz",
+  "version": "1.0.0",
+  "description": "Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally, replacing any number divisible by three with the word `fizz`, and any number divisible by five with the word `buzz`.",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "eslint --ext .js,.ts . && jest"
+  },
+  "devDependencies": {
+    "eslint": "7.7.0",
+    "jest": "26.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "ignorePatterns": [
+      "node_modules/",
+      "*.test.js",
+      "src.sample/*"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1,
+          "ObjectExpression": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-var": "error",
+      "no-console": 0,
+      "no-unused-vars": 0,
+      "no-template-curly-in-string": "warn",
+      "array-callback-return": "error",
+      "no-global-assign": "error",
+      "no-implied-eval": "error",
+      "no-param-reassign": "error",
+      "no-return-assign": "error",
+      "no-self-compare": "error",
+      "no-sequences": "error"
+    }
+  }
+}
