@@ -1,10 +1,26 @@
 // > Frieda and Francis walk on the street. Frieda is 22 and Francis is 17.
-//
+const frieda = {
+  age: 22,
+  name: "Frieda",
+};
+
+const francis = {
+  age: 17,
+  name: "Francis",
+};
 // Create two objects, `frieda`, `francis` with the fields :
+
+
 //   `age` (an integer) and `name`, (obviously a string)
 
 // Create two variables `canFriedaDrinkAlcohol` and `canFrancisDrinkAlcohol` to answer,
+let canFriedaDrinkAlcohol = frieda.age >= 18;
+let canFrancisDrinkAlcohol = francis.age >= 18;
+
+
 // respectively, to the question "Can he / she drink alcohol?".
+
+
 // Think about the Primitive Data Type that is best suited for the answer.
 // Hint: Think about the number of options
 
