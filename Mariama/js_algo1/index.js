@@ -2,7 +2,7 @@ const sum = require("./addition")
 const div = require("./divisi")
 const mult = require("./multipli")
 const soust = require("./soustraction")
-const somme = require("./double_somme")
+
 
 
 // const resultAddition = addiction(5, 9)
