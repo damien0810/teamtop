@@ -26,3 +26,9 @@ fizzBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
 
 - You can try your function using the previously defined `range()` in the `01_range_function/src/index.js` file to create your array of positive integers;
 - The result of the function **must be** a new array.
+
+
+function divsion(firstNumber, secondNumber) {
+  if()
+  return []
+};
