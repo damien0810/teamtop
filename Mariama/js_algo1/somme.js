@@ -9,4 +9,4 @@ function somme(listInt) {
 }
 somme([5, 6, 7, 9])
 
-module.exports = somme
+module.exports = somme;
