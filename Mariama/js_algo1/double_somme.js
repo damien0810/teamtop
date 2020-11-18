@@ -15,14 +15,20 @@ function double_somme(listNum1, listNum2) {
         tabList2 = listNum2[i] + tabList2
         console.log("voici tablist2:", tabList2);
         console.log("valeur:", tabList2);
-        const result = listNum1[i] + listNum2[i]
-
+        const result = tabList1 + tabList2
+        console.log("resultat de tabList1:", tabList1, "et tabList2:", tabList2, "et le resultat =", result)
     }
     return tabList2;
     return tabList1;
+    return result;
 
 
+
+    // const somme = require("./somme")
+    // unction double_somme(listNumOne, listNumTwo) {
+    //     return somme(listNumOne) + somme(listNumTwo)
 }
+
 
 console.log(double_somme);
 double_somme([1, 2, 13], [12, 34, 97, 129])
