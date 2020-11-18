@@ -4,6 +4,7 @@ function all_somme(allArrays) {
     for (let i = 0; i < allArrays.length; i++) {
         result = result + somme(allArrays[i])
         console.log(result)
+
     }
     return result;
 }
