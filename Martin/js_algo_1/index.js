@@ -12,6 +12,4 @@ function menu(a, b, operation){
   console.log(operation(a, b));
 }
 
-
-
 menu([1, 2, 3], [4, 12, 34], double_sum)
