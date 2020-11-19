@@ -1,0 +1,8 @@
+{
+  "name": "teamtop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/damien0810/teamtop.git",
+  "author": "e <cguiselin@norauto.fr>",
+  "license": "MIT"
+}

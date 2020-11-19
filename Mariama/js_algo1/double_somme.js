@@ -22,14 +22,9 @@ function double_somme(listNum1, listNum2) {
     return tabList1;
     return result;
 
-
-
     // const somme = require("./somme")
     // unction double_somme(listNumOne, listNumTwo) {
     //     return somme(listNumOne) + somme(listNumTwo)
 }
-
-
-console.log(double_somme);
 double_somme([1, 2, 13], [12, 34, 97, 129])
 
