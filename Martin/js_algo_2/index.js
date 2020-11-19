@@ -1,15 +1,37 @@
+const taille = require("./taille");
+const clean = require("./clean");
 
+function animalCount(dataList) {
+  let result = 0;
+  let cleanedData = dataList.map(clean)
 
-const data = [["Arthus", "Mathis", "Juliette"], ["Bob", "Prince"], [], ["Nesta"], ["Gandhi"], [], ["Neige"]]
+  for (let index = 0; index < cleanedData.length; index++) {
+    result = result + taille(cleanedData[index]);
+  }
 
-function animalCount(dataList){ // Must return the number of animals in the list.
-  
+  return result;
 }
+// email = "azepoaziepoaizepo".split().map()
+// if(email)
 
-/* 
-Par exemple: 
+const data = [
+  ["Arthus", "Mathis", "Juliette"],
+  ["Bob", "Prince"],
+  [""],
+  ["Nesta"],
+  ["Gandhi"],
+  [""],
+  ["Neige"],
+];
+//           [                 0               ,        1         , 2,      3
+const tailleData = animalCount(data) // 8
+console.log(tailleData)
+/*
+=======
 
-let result = animalCount(dataList)
+Par exemple:
+
+let result = animalCount(data)
 console.log(result) // => 8
 
-*/ 
+*/

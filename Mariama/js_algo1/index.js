@@ -3,8 +3,6 @@ const div = require("./divisi")
 const mult = require("./multipli")
 const soust = require("./soustraction")
 
-
-
 // const resultAddition = addiction(5, 9)
 // const resultDiv = div(81, 9)
 // const resultMult = mult(5, 9)
