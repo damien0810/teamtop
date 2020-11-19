@@ -1,0 +1,76 @@
+{
+  "name": "05_morse_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "eslint --ext .js . && jest"
+  },
+  "devDependencies": {
+    "camp2-helpers": "fewlines-education/camp2-helpers#main",
+    "eslint": "7.7.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "jest": "26.4.2",
+    "prettier": "2.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "ignorePatterns": [
+      "node_modules/",
+      "*.test.js",
+      "src.sample/*"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1,
+          "ObjectExpression": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-var": "error",
+      "no-console": 0,
+      "no-unused-vars": 0,
+      "no-template-curly-in-string": "warn",
+      "array-callback-return": "error",
+      "no-global-assign": "error",
+      "no-implied-eval": "error",
+      "no-param-reassign": "error",
+      "no-return-assign": "error",
+      "no-self-compare": "error",
+      "no-sequences": "error"
+    }
+  }
+}
