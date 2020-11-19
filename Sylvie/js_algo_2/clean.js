@@ -4,6 +4,7 @@ function clean(element) {
     // recherche les tableaux d'une taille de 1
     // puis rechercher le 1er élément du tableau
     // qui est un string vide
+    //
     return [];
   } else {
     console.log("l6" + element);
