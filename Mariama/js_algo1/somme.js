@@ -8,5 +8,4 @@ function somme(listInt) {
     return tabList;
 }
 somme([5, 6, 7, 9])
-
 module.exports = somme; 
