@@ -1,0 +1,14 @@
+{
+  "name": "03_play_with_conditional_statement_drink",
+  "version": "1.0.0",
+  "main": "./src/01_can_i_drink_alcohol.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/01_can_i_drink_alcohol.js",
+    "test": "eslint --ext .js,.ts . && jest"
+  },
+  "devDependencies": {
+    "eslint": "7.7.0",
+    "jest": "26.4.2"
+  }
+}
