@@ -18,7 +18,7 @@ const data = [
 const result = data.map(clean)
 
 // const resultFiltre = data.
-filter((sous_tableau) => {
+// filter((sous_tableau) => {
 //   return (sous_tableau[0] === "" && sous_tableau.length === 1);
 // })
 
@@ -38,4 +38,4 @@ filter((sous_tableau) => {
 ];
 */
 
-module.exports = clean
+module.exports = clean;
