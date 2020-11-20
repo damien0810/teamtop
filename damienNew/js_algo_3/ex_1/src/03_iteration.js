@@ -3,7 +3,7 @@
 // -  Create an array called `literalDigits` from `zero` to `nine` where each array entry is a spelled-out number;
 // -  Using `length`, write on `stdout` each values of the table.
 
-const literalDigits = [
+let litteralDigits = [
   "zero",
   "one",
   "two",
@@ -16,6 +16,6 @@ const literalDigits = [
   "nine",
 ];
 
-for (let index = 0; index < literalDigits.length; index++) {
-  console.log(literalDigits[index]);
+for (let index = 0; index < litteralDigits.length; index++) {
+  console.log(litteralDigits[index]);
 }
