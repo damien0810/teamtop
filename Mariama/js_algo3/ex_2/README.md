@@ -20,7 +20,7 @@ In the file `04_filter/src/01_filter_with_string.js`, write a function called `f
 
 And returns a **new array** with only the filtered integers left.
 ⚠️ Using `Array.filter` is forbidden.
-
+ik
 E.g.
 
 ```javascript
