@@ -16,16 +16,12 @@ let literalDigits = (["zero",
   "nine",
 ]);
 let stdout = [];
-for (let i = 0; i < 10; i++) {
-  if (literalDigits % 2 === 0) {
-    return 0;
-  }
-  else {
-    return literalDigits;
+for (let i = 0; i < literalDigits.length; i++) {
+  if (i % 2 === 1) {
+    console.log(literalDigits[i]);
   }
 
 }
-console.log(literalDigits);
 
 
 // const numResult = literalDigits.filter(literalDigit => literalDigit.length);
